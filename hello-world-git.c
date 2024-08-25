@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
 
-int main(void) {
-	printf("Hello, World from an application cloned from Github!\r\n");
-	return 0;
+#include "hello-world-git.h"
+
+int main(int argc, char *argv[]) {
+    printf("Hello, World...\n");
+    return 0;
 }
